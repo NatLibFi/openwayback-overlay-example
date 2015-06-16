@@ -6,7 +6,7 @@ OpenWayback overlay for National Library of Finland
 Author: Ilja Sidoroff (firstname.lastname at* helsinki.fi)
 
 This is an example of maven overlay project for customizing
-OpenWayback interface. You can use this a starting point to real
+OpenWayback interface. You can use this as a starting point to a real
 overlay.
 
 Installation
