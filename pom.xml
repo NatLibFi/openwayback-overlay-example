@@ -8,7 +8,7 @@
   <name>OpenWayback Sample Overlay</name>
   <version>0.0.1</version>
 
-  <!-- properties for open wayback -->
+  <!-- properties for OpenWayback -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <wayback.port>8080</wayback.port>
@@ -30,15 +30,18 @@
   </dependencies>
   
   <build>
+
     <plugins>
       <plugin>
 	<!-- We use Jetty 9, so Java 7 is needed -->
 	<groupId>org.eclipse.jetty</groupId>
 	<artifactId>jetty-maven-plugin</artifactId>
 	<version>9.1.2.v20140210</version>
+	<configuration>
+	  <scanIntervalSeconds>10</scanIntervalSeconds>
+	</configuration>
       </plugin>
     </plugins>
   </build>
-
 
 </project>

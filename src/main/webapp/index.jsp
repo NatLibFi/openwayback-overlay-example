@@ -24,7 +24,7 @@ if(names != null) {
 }
 %>
 <p>
-	<h1>THIS HERE IS CUSTOMED HEADER (don't use hardcoded string in production!)</h1>
+	<h1>THIS LINE HERE IS A CUSTOMIZATION (don't use hardcoded strings in production!)</h1>
         <%= fmt.format("UIGlobal.indexPage") %>
 </p>
 <jsp:include page="/WEB-INF/template/UI-footer.jsp" flush="true" />
